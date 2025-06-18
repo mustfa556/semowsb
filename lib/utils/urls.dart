@@ -47,6 +47,10 @@ class Urls {
   static String getMovieSimilar(int id) => '$tmdbBase/movie/$id/similar';
   static String getTvShowSimilar(int id) => '$tmdbBase/tv/$id/similar';
 
+  // GitHub URLs
+  static const String github = 'https://github.com/mustfa556/semowsb';
+  static const String mosesGithub = 'https://github.com/mustfa556';
+
   static String getBestImageUrl(BuildContext context) {
     double screenWidth = MediaQuery.of(context).size.width;
 
